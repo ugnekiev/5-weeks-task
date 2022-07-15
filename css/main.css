@@ -1,0 +1,21 @@
+
+.container {
+
+    border: 2px solid black;
+    width: 1000px;
+    height: 600px;
+    margin: 0 calc((100% - 1000px) / 2);
+}
+
+.title > .container {
+margin-left: 200px;
+
+
+}
+.block1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid black;
+    width: 800px;
+    height: 400px;
+}
